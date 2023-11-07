@@ -9812,6 +9812,9 @@ body.rtl.overlay-active .page-wrapper.right-overlay .sticky-nav-inner,
 /*-------------------------------
 	35. Responsive Styles
 ---------------------------------*/
+.web-logo{
+    width:149;
+}
 
 @media only screen and (min-width: 1025px) {
     .dropdown-sub>a::after {
@@ -9848,6 +9851,14 @@ body.rtl.overlay-active .page-wrapper.right-overlay .sticky-nav-inner,
         margin-bottom: -80px;
     }
 }
+
+@media only screen and (max-width: 775px) and (min-width: 552px) {
+    .web-logo {
+        height: 2em;
+    }
+}
+
+
 
 @media only screen and (max-width: 1024px) {
     .cta-1 h2 {
@@ -9972,6 +9983,10 @@ body.rtl.overlay-active .page-wrapper.right-overlay .sticky-nav-inner,
 @media only screen and (max-width: 768px) {
     .mailchimp-img1 {
         margin-top: 120px;
+    }
+    .web-logo{
+        height: 65px;
+        /* width:149px/5; */
     }
     .ministries-section .title-wrap,
     .mailchimp-form.mailchimp-style-3 {
